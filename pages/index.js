@@ -44,7 +44,7 @@ export default function Home() {
 
           <div className={styles.card}>
             <h3>
-              code
+            📱 code
             </h3>
             <p>
               the first step into creating your dream product
@@ -53,16 +53,16 @@ export default function Home() {
 
           <div className={styles.card}>
             <h3>
-              design
+            🎨 design
             </h3>
             <p>
-              find the best design tools and resources needed to build the best products
+              find the best design tools and resources to create your product
             </p>
           </div>
 
           <div className={styles.card}>
             <h3>
-              tools
+            🔧 tools
             </h3>
             <p>
               all the tools you will need, from website analytics to automation
@@ -71,7 +71,7 @@ export default function Home() {
 
           <div className={styles.card}>
             <h3>
-              startups
+            🦄 startups
             </h3>
             <p>
               join the community and start sharing your products
