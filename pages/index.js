@@ -8,37 +8,55 @@ export default function Home() {
       <Head>
         <title>stackii</title>
         <link rel="icon" href="/favicon.ico" />
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
       </Head>
 
       <main className={styles.main}>
 
-        <p className={styles.stackii}>
-          stackii
-        </p>
-        <h1 className={styles.title}>
-          ultimate library for building products
-        </h1>
+        <div className={styles.homeContainer}>
+          <div className={styles.textContainer}>
+            <p className={styles.stackii}>
+              stackii
+            </p>
+            <h1 className={styles.title}>
+              ultimate library for building products
+            </h1>
 
 
-        <p className={styles.description}>
-          we aggregate the web for the best resources so you dont have to.
-        </p>
+            <p className={styles.description}>
+              we aggregate the web for the best resources so you dont have to.
+            </p>
 
-        <div className={styles.btn}>
+            <div className={styles.btn}>
 
-          <a href="https://library.stackii.dev/" target="_blank"><button className={`${styles.btnCard} ${styles.btnPrimary}`}>
-            free search
-          </button></a>
+              <a href="https://library.stackii.dev/" target="_blank"><button className={`${styles.btnCard} ${styles.btnPrimary}`}>
+                free search
+              </button></a>
 
 
 
-          <button className={`${styles.btnCard} ${styles.btnSecondary}`}>
-            get updates
-          </button>
+              <button className={`${styles.btnCard} ${styles.btnSecondary}`}>
+                get updates
+              </button>
+
+            </div>
+
+          </div>
+
+          <div className={styles.imgContainer}>
+          <lottie-player 
+            src="https://assets5.lottiefiles.com/packages/lf20_jn4vvm3d.json"  
+            background="transparent"  
+            speed="1"
+            className={styles.img}   
+            loop  
+            autoplay>
+
+          </lottie-player>
+
+          </div>
 
         </div>
-
-
 
         <div className={styles.grid}>
 
@@ -56,7 +74,7 @@ export default function Home() {
             🎨  design
             </h3>
             <p>
-              find the best design tools and resources to create your product
+              find the best design tools and resources
             </p>
           </div>
 
@@ -65,7 +83,7 @@ export default function Home() {
             🔧  tools
             </h3>
             <p>
-              all the tools you will need, from website analytics to automation
+              tools to bring your products to life
             </p>
           </div>
 
@@ -74,7 +92,7 @@ export default function Home() {
             🦄  startups
             </h3>
             <p>
-              join the community and start sharing your products
+              join the community of indie hackers
             </p>
           </div>
          
