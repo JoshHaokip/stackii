@@ -22,7 +22,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: left;
-  width: 80%;
+  width: 85%;
 
 }
 
@@ -37,11 +37,15 @@
   margin-top: 215px;
 }
 
+.img {
+  width: 100%;
+}
+
 .stackii {
   font-size: 2rem;
   margin: 0;
-  color: #3052FF;
-  font-weight: 800;
+  color: #FE7624;
+  font-weight: 600;
 }
 
 .title {
@@ -55,6 +59,7 @@
 .title,
 .description {
   text-align: left;
+  color: #2E186A;
 }
 
 .description {
@@ -80,9 +85,14 @@
 }
 
 .btnPrimary {
-  background-color: #3052FF;
-  border: 1px solid #3052FF;
+  background-color: #5D20D1;
+  border: 1px solid #5D20D1;
   color: white;
+}
+
+.btnSecondary {
+  border: 1px solid #5D20D1;
+  color: #5D20D1;
 }
 
 
@@ -97,8 +107,8 @@
 .btnSecondary:hover,
 .btnSecondary:focus,
 .btnSecondary:active {
-  color: #3052FF;
-  border-color: #3052FF;
+  color: #FE7624;
+  border-color: #FE7624;
 }
 
 .grid {
@@ -117,7 +127,7 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 1px solid #5D20D1;
   border-radius: 5px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
@@ -126,18 +136,20 @@
 .card:focus,
 .card:active {
   color: #0070f3;
-  border-color: #0070f3;
+  border-color: #FE7624;
 }
 
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  color: #2E186A;
 }
 
 .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+  color: #5D20D1;
 }
 
 @media (max-width: 500px) {
@@ -158,10 +170,7 @@
   }
 
   .imgContainer{
-    z-index: 2;
-    width: 100%;
-    height: 80%;
-    margin-top: 85px;
+    display: none;
   }
 
   .textContainer{
@@ -194,7 +203,7 @@
   }
 
   .grid {
-    margin-top: 2rem;
+    margin-top: 5rem;
     max-width: 100%;
     flex-direction: column;
   }

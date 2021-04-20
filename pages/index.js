@@ -48,7 +48,7 @@ export default function Home() {
             src="https://assets5.lottiefiles.com/packages/lf20_jn4vvm3d.json"  
             background="transparent"  
             speed="1"
-            className={styles.img}   
+            className={styles.img}
             loop  
             autoplay>
 
