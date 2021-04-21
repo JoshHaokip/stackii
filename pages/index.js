@@ -62,7 +62,7 @@ export default function Home() {
 
           <div className={styles.card}>
             <h3>
-            📱 code
+            code
             </h3>
             <p>
               the first step into creating your dream product
@@ -71,7 +71,7 @@ export default function Home() {
 
           <div className={styles.card}>
             <h3>
-            🎨  design
+            design
             </h3>
             <p>
               find the best design tools and resources
@@ -80,7 +80,7 @@ export default function Home() {
 
           <div className={styles.card}>
             <h3>
-            🔧  tools
+            tools
             </h3>
             <p>
               tools to bring your products to life
@@ -89,7 +89,7 @@ export default function Home() {
 
           <div className={styles.card}>
             <h3>
-            🦄  startups
+            startups
             </h3>
             <p>
               join the community of indie hackers

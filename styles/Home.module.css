@@ -88,6 +88,7 @@
 .btnPrimary {
   background-color: #5D20D1;
   border: 1px solid #5D20D1;
+  box-shadow: 0.5px 0.5px 15px 2px #A78BFA;
   color: white;
 }
 
@@ -103,6 +104,7 @@
   color: white;
   border-color: #FE7624;
   background-color: #FE7624;
+  box-shadow: 0.5px 0.5px 15px 2px #fde08a;
 }
 
 
@@ -127,9 +129,8 @@
   flex-basis: 45%;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
   text-decoration: none;
-  border: 1px solid #5D20D1;
+  box-shadow: 0.5px 0.5px 15px 2px #F3F4F6;
   border-radius: 5px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
@@ -137,8 +138,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #FE7624;
+  box-shadow: 0.5px 3px 10px 2px #A78BFA;
 }
 
 .card h3 {
@@ -149,9 +149,9 @@
 
 .card p {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   line-height: 1.5;
-  color: #5D20D1;
+  color: #2E186A;
 }
 
 @media (max-width: 500px) {
