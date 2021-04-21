@@ -19,12 +19,12 @@ export default function Home() {
               stackii
             </p>
             <h1 className={styles.title}>
-              ultimate library for building products
+              Ultimate library for building products
             </h1>
 
 
             <p className={styles.description}>
-              we aggregate the web for the best resources so you dont have to.
+              We aggregate the web for the best resources created by indie hackers and side project enthusiasts.
             </p>
 
             <div className={styles.btn}>
@@ -32,8 +32,6 @@ export default function Home() {
               <a href="https://library.stackii.dev/" target="_blank"><button className={`${styles.btnCard} ${styles.btnPrimary}`}>
                 free search
               </button></a>
-
-
 
               <button className={`${styles.btnCard} ${styles.btnSecondary}`}>
                 get updates
@@ -49,7 +47,7 @@ export default function Home() {
             background="transparent"  
             speed="1"
             className={styles.img}
-            loop  
+            loop="true"  
             autoplay>
 
           </lottie-player>
@@ -61,15 +59,16 @@ export default function Home() {
         <div className={styles.categoriesContainer}>
 
           <div className={styles.categoriesTitle}>
-            <h1>categories</h1>
+            <h2>Categories</h2>
           </div>
 
           <div className={styles.grid}>
 
             <div className={styles.card}>
-              <h3>20 resources</h3>
-              <h1>code</h1>
-              <p>the first step into creating your dream product</p>
+              <h3>25 resources</h3>
+              <h1>Web Development</h1>
+              <p>Learn the basics of web development with some of the best resources on the web. From learning platforms to libraries, you'll have everything you need to start building.</p>
+              <h4>Check us out</h4>
             </div>
 
             <div className={styles.card}>
