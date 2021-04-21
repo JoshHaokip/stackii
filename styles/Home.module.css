@@ -159,12 +159,6 @@
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  box-shadow: 0.5px 0.5px 15px 2px #F3F4F6;
-}
-
 .card h3 {
   font-size: 1.1rem;
   font-weight: 500;
@@ -186,13 +180,18 @@
   font-size: 1.1rem;
   line-height: 2;
   color: #2E186A;
-  font-weight: 100;
+  font-weight: 200;
+  letter-spacing: 0.5px;;
+}
+
+.card h4 {
+  font-weight: bold;
 }
 
 @media (max-width: 600px) {
 
   .main {
-    padding-top: 4rem;
+    padding-top: 2.75rem;
   }
 
   .container {
@@ -212,7 +211,7 @@
   }
 
   .imgContainer{
-    margin-top: 25px;
+    margin-top: 3.5rem;
     width: 100%;
 
   }
@@ -254,6 +253,14 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 50px;
+  }
+
+  .card p {
+    font-size: 1rem;
   }
 
 }

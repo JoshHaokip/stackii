@@ -68,25 +68,28 @@ export default function Home() {
               <h3>25 resources</h3>
               <h1>Web Development</h1>
               <p>Learn the basics of web development with some of the best resources on the web. From learning platforms to libraries, you'll have everything you need to start building.</p>
-              <h4>Check us out</h4>
+              <h4>Start coding</h4>
             </div>
 
             <div className={styles.card}>
-              <h3>20 resources</h3>
-              <h1>code</h1>
-              <p>the first step into creating your dream product</p>
+              <h3>33 resources</h3>
+              <h1>Design</h1>
+              <p>Need help understanding UX/UI? Struggling to wireframe your product? All the resources and tools you'll need to create your next masterpiece.</p>
+              <h4>Start designing</h4>
             </div>
 
             <div className={styles.card}>
-              <h3>20 resources</h3>
-              <h1>code</h1>
-              <p>the first step into creating your dream product</p>
+              <h3>42 resources</h3>
+              <h1>Tools and Utils</h1>
+              <p>No superhero is without their trusted sidekick! Power up your products with the best tools on the web. From web analytics to automation, you'll never have to struggle again.</p>
+              <h4>Start making</h4>
             </div>
 
             <div className={styles.card}>
-              <h3>20 resources</h3>
-              <h1>code</h1>
-              <p>the first step into creating your dream product</p>
+              <h3>17 resources</h3>
+              <h1>Startups</h1>
+              <p>You've built your product and added some additional tools, now's the time to start spreading your product all over the web.</p>
+              <h4>Start shouting</h4>
             </div>
 
           </div>
