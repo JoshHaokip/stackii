@@ -70,7 +70,7 @@
 
 .btn {
   width: 80%;
-  margin-top: 1.5%;
+  margin-top: 10%;
 }
 
 .btnCard {
@@ -174,7 +174,7 @@
   color: #2E186A;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 
   .container {
     height: 100%;
@@ -193,32 +193,27 @@
   
   }
 
-  .categoriesContainer {
-    width: 100%;
-    margin-right: 10px;
-  }
-
   .imgContainer{
     display: none;
   }
 
   .textContainer{
-    z-index: 5;
+    z-index: 4;
     width: 100%;
   }
 
   .stackii {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .title {
     width: 100%;
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .description {
     width: 100%;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .btn {
@@ -226,9 +221,14 @@
   }
 
   .btnCard {
-    width: 40%;
-    height: 50px;
-    font-size: 17px;
+    width: 45%;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  .categoriesContainer {
+    width: 100%;
+    margin-right: 10px;
   }
 
   .grid {
