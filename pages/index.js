@@ -58,45 +58,42 @@ export default function Home() {
 
         </div>
 
-        <div className={styles.grid}>
+        <div className={styles.categoriesContainer}>
 
-          <div className={styles.card}>
-            <h3>
-            code
-            </h3>
-            <p>
-              the first step into creating your dream product
-            </p>
+          <div className={styles.categoriesTitle}>
+            <h1>categories</h1>
           </div>
 
-          <div className={styles.card}>
-            <h3>
-            design
-            </h3>
-            <p>
-              find the best design tools and resources
-            </p>
+          <div className={styles.grid}>
+
+            <div className={styles.card}>
+              <h3>20 resources</h3>
+              <h1>code</h1>
+              <p>the first step into creating your dream product</p>
+            </div>
+
+            <div className={styles.card}>
+              <h3>20 resources</h3>
+              <h1>code</h1>
+              <p>the first step into creating your dream product</p>
+            </div>
+
+            <div className={styles.card}>
+              <h3>20 resources</h3>
+              <h1>code</h1>
+              <p>the first step into creating your dream product</p>
+            </div>
+
+            <div className={styles.card}>
+              <h3>20 resources</h3>
+              <h1>code</h1>
+              <p>the first step into creating your dream product</p>
+            </div>
+
           </div>
 
-          <div className={styles.card}>
-            <h3>
-            tools
-            </h3>
-            <p>
-              tools to bring your products to life
-            </p>
-          </div>
-
-          <div className={styles.card}>
-            <h3>
-            startups
-            </h3>
-            <p>
-              join the community of indie hackers
-            </p>
-          </div>
-         
         </div>
+
       </main>
 
     </div>
