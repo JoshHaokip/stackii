@@ -143,7 +143,7 @@
 }
 
 .card {
-  width: 450px;
+  width: 475px;
   height: 200px;
   margin-bottom: 10px;
   padding-left: 10px;
@@ -174,11 +174,12 @@
   color: #2E186A;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
 
   .container {
-    min-height: 100vh;
-    padding: 0 1.75rem;
+    height: 100%;
+    width: fit-content;
+    margin-left: 10px;
   }
 
   .homeContainer{
@@ -188,11 +189,13 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-right: 10px;
   
   }
 
   .categoriesContainer {
     width: 100%;
+    margin-right: 10px;
   }
 
   .imgContainer{
@@ -229,7 +232,7 @@
   }
 
   .grid {
-    max-width: 100%;
+    width: 100%;
     flex-direction: column;
   }
 }
