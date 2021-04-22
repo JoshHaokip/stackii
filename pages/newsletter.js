@@ -41,6 +41,7 @@ const Newsletter = () => {
           required
           type="email"
         />
+
         <div className={styles.message}>
           {message
             ? message
