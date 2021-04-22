@@ -48,6 +48,7 @@ export default function Home() {
             speed="1"
             className={styles.img}
             loop="true"  
+            renderer='svg'
             autoplay>
 
           </lottie-player>
