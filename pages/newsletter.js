@@ -30,6 +30,7 @@ const Newsletter = () => {
 
   return (
     <div className={styles.container}>
+      <h1></h1>
       <form onSubmit={subscribe} className={styles.formContainer}>
         <input
           className={styles.input}
