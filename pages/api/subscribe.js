@@ -1,8 +1,8 @@
 import mailchimp from "@mailchimp/mailchimp_marketing";
 
 mailchimp.setConfig({
-  apiKey: process.env.local.MAILCHIMP_API_KEY,
-  server: process.env.local.MAILCHIMP_API_SERVER,
+  apiKey: process.env.MAILCHIMP_API_KEY,
+  server: process.env.MAILCHIMP_API_SERVER,
 });
 
 export default async (req, res) => {
@@ -13,13 +13,10 @@ export default async (req, res) => {
   }
 
   try {
-    await mailchimp.lists.addListMember(
-      process.env.local.MAILCHIMP_AUDIENCE_ID,
-      {
-        email_address: email,
-        status: "subscribed",
-      }
-    );
+    await mailchimp.lists.addListMember(process.env.MAILCHIMP_AUDIENCE_ID, {
+      email_address: email,
+      status: "subscribed",
+    });
 
     return res.status(201).json({ error: "" });
   } catch (error) {
