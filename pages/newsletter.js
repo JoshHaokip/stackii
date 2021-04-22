@@ -30,7 +30,6 @@ const Newsletter = () => {
 
   return (
     <div className={styles.container}>
-      <h1></h1>
       <form onSubmit={subscribe} className={styles.formContainer}>
         <input
           className={styles.input}
@@ -41,7 +40,6 @@ const Newsletter = () => {
           required
           type="email"
         />
-
         <div className={styles.message}>
           {message
             ? message
