@@ -2,10 +2,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, Helvetica Neue, Segoe UI, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Lato, sans-serif;
-  
-  color: #2E186A;
+  font-family: -apple-system, Helvetica Neue, Segoe UI, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Lato, sans-serif;
+
+  color: #2e186a;
 }
 
 a {
