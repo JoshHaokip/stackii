@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 export default function Home() {
   return (
@@ -9,7 +8,7 @@ export default function Home() {
       <Head>
         <title>stackii</title>
         <link rel="icon" href="/favicon.ico" />
-        {/* <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> */}
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
       </Head>
 
       <main className={styles.main}>
@@ -38,7 +37,7 @@ export default function Home() {
           </div>
 
           <div className={styles.imgContainer}>
-            {/* <lottie-player
+            <lottie-player
               src="https://assets5.lottiefiles.com/packages/lf20_jn4vvm3d.json"
               background="transparent"
               speed="1"
@@ -46,13 +45,7 @@ export default function Home() {
               loop="true"
               renderer="svg"
               autoplay
-            ></lottie-player> */}
-            <Player
-              autoplay
-              loop
-              src="https://assets5.lottiefiles.com/packages/lf20_jn4vvm3d.json"
-              className={styles.img}
-            ></Player>
+            ></lottie-player>
           </div>
         </div>
 
