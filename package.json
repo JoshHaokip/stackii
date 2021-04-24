@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.1.2",
     "@mailchimp/mailchimp_marketing": "^3.0.40",
     "axios": "^0.21.1",
     "isomorphic-unfetch": "^3.1.0",
