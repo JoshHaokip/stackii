@@ -42,7 +42,7 @@ export default function Home() {
               background="transparent"
               speed="1"
               className={styles.img}
-              loop
+              loop="true"
               renderer="svg"
               autoplay
             ></lottie-player>
@@ -63,7 +63,7 @@ export default function Home() {
                 resources on the web. From learning platforms to libraries,
                 you'll have everything you need to start building.
               </p>
-              <h4>Start coding</h4>
+              <button className={styles.cardBtn}>Start coding</button>
             </div>
 
             <div className={styles.card}>
@@ -74,7 +74,7 @@ export default function Home() {
                 product? All the resources and tools you'll need to create your
                 next masterpiece.
               </p>
-              <h4>Start designing</h4>
+              <button className={styles.cardBtn}>Start designing</button>
             </div>
 
             <div className={styles.card}>
@@ -85,17 +85,18 @@ export default function Home() {
                 products with the best tools on the web. From web analytics to
                 automation, you'll never have to struggle again.
               </p>
-              <h4>Start making</h4>
+              <button className={styles.cardBtn}>Start making</button>
             </div>
 
             <div className={styles.card}>
               <h3>17 resources</h3>
               <h1>Startups</h1>
               <p>
-                You've built your product and added some additional tools, now's
-                the time to start spreading your product all over the web.
+                Almot there! You've built your product and added some fancy
+                tools, now's the time to start spreading your product all over
+                the web.
               </p>
-              <h4>Start shouting</h4>
+              <button className={styles.cardBtn}>Start shouting</button>
             </div>
           </div>
         </div>

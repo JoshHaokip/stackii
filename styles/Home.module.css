@@ -178,8 +178,25 @@
   letter-spacing: 0.5px;
 }
 
-.card h4 {
+.cardBtn {
+  margin-top: 15px;
+  width: 33%;
+  height: 12.5%;
   font-weight: bold;
+  border: 1px solid #5d20d1;
+  box-shadow: 0.25px 0.25px 5px 1px #a78bfa;
+  color: #5d20d1;
+  background-color: white;
+  border-radius: 5px;
+  letter-spacing: 0.1rem;
+}
+
+.cardBtn:hover,
+.cardBtn:active,
+.cardBtn:focus {
+  color: #fe7624;
+  border-color: #fe7624;
+  box-shadow: 0.25px 0.25px 10px 1px #fe7624;
 }
 
 @media (max-width: 600px) {
