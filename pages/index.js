@@ -24,9 +24,9 @@ export default function Home() {
             </p>
 
             <div className={styles.btn}>
-              <a href="https://library.stackii.dev/" target="_blank">
+              <a href="https://www.stackii.dev/" target="_blank">
                 <button className={`${styles.btnCard} ${styles.btnPrimary}`}>
-                  my stackii
+                  find tools
                 </button>
               </a>
 
@@ -42,7 +42,7 @@ export default function Home() {
               background="transparent"
               speed="1"
               className={styles.img}
-              loop="true"
+              loop
               renderer="svg"
               autoplay
             ></lottie-player>
