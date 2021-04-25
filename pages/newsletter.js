@@ -15,12 +15,11 @@ const CustomForm = ({ status, message, onValidated }) => {
     });
 
   return (
-    <form className={styles.formContainer}>
+    <div className={styles.formContainer}>
       <div className={styles.formInputContainer}>
         <input
           className={styles.formInput}
           ref={(node) => (name = node)}
-          name="name"
           type="text"
           placeholder="Tim Cook"
         />
@@ -28,7 +27,6 @@ const CustomForm = ({ status, message, onValidated }) => {
         <input
           className={styles.formInput}
           ref={(node) => (email = node)}
-          name="email"
           type="email"
           placeholder="tim@apple.com"
         />
@@ -49,11 +47,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         )}
         <br />
         <div className={styles.buttonContainer}>
-          <button
-            data-testid="mailchimp-form"
-            className={styles.submit}
-            onClick={submit}
-          >
+          <button className={styles.submit} onClick={submit}>
             Subscribe
           </button>
           <button className={styles.back}>
@@ -61,7 +55,7 @@ const CustomForm = ({ status, message, onValidated }) => {
           </button>
         </div>
       </div>
-    </form>
+    </div>
   );
 };
 
