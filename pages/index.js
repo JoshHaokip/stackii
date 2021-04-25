@@ -31,7 +31,9 @@ export default function Home() {
               </a>
 
               <button className={`${styles.btnCard} ${styles.btnSecondary}`}>
-                <Link href="/newsletter">get updates</Link>
+                <Link data-testid="link" href="/newsletter">
+                  get updates
+                </Link>
               </button>
             </div>
           </div>
